@@ -1,6 +1,7 @@
 @import url(./cabecalho.css);
 @import url(./conteudo.css);
 @import url(./footer.css);
+@import url(./breakpoint-630px.css);
 *{
     margin: 0;
     padding: 0;
@@ -19,3 +20,4 @@
 .conteudo p{
     font-size: 3rem;
 }
+
