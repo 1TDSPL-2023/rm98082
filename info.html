@@ -4,33 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Layout</title>
+    <title>Info</title>
     <link rel="stylesheet" href="./css/estilo.css">
-
-    <script>
-
-        //COMENTARIO DE LINHA
-        
-        
-        /* 
-        COMENTARIO DE BLOCO
-        */
-
-        // para declarar uma variavel se utiliza var
-        var nr1 = 10;
-        var nr2 = 10;
-
-        //Objetos que dao saida em informaçoes no JavaScript
-
-        //console.log(parametro) = Demonstra a saída no console da ferramenta do desenvolvedor 
-        
-        console.log(nr1 + nr2);
-
-        //document.write(parametro) = Demonstra a saida na pagina html
-        document.write(nr1 + nr2);
-
-    </script>
-
 </head>
 
 <body>
@@ -46,7 +21,7 @@
         </nav>
     </header>
 
-    <h2 class="tit-sec">Seção de Fotos</h2>
+    <h2 class="tit-sec">Informações Gerais</h2>
     
     <!--CABEÇALHO-->
 
@@ -56,28 +31,62 @@
             <img src="./img/lobo1.jpg" alt="Lobo">
             <p>Legenda</p>
         </div>
-        <div>
-            <img src="./img/lobo2.jpg" alt="Lobo">
-            <p>Legenda</p>
-        </div>
-        <div>
-            <img src="./img/lobo3.jpg" alt="Lobo">
-            <p>Legenda</p>
-        </div>
-        <div>
-            <img src="./img/lobo4.jpg" alt="Lobo">
-            <p>Legenda</p>
-        </div>
-        <div>
-            <img src="./img/lobo5.jpg" alt="Lobo">
-            <p>Legenda</p>
-        </div>
-        <div>
-            <img src="./img/lobo6.jpg" alt="Lobo">
-            <p>Legenda</p>
-        </div>
     </section>
     <!--CONTEÚDO-->
+
+
+    <table>
+        <tr>
+            <th>Nome científico</th>
+            <th>Espécie</th>
+            <th>Pelagem</th>
+            <th>Habitat</th>
+            <th>Incidência</th>
+        </tr>
+        <tr>
+            <td colspan="2">Canis Lupus</td>
+            <!--<td>Canídeo</td>-->
+            <td>Cinzenta</td>
+            <td>Floresta</td>
+            <td>América do norte</td>
+        </tr>
+        <tr>
+            <td>Canis Rufus</td>
+            <td>Canídeo</td>
+            <td>Preta</td>
+            <td>Mata</td>
+            <td>Europa</td>
+        </tr>
+        <tr>
+            <td>Chrysocyon brachyuru</td>
+            <td>Canídeo</td>
+            <td>Marrom</td>
+            <td>Pampas</td>
+            <td>América do Sul</td>
+        </tr>
+        <tr>
+            <td>lobo-etíope</td>
+            <td>Canídeo</td>
+            <td>Marrom</td>
+            <td>Deserto</td>
+            <td>Ásia</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Canis Simensis</td>
+            <td>Canídeo</td>
+            <td>Marrom</td>
+            <td>Deserto</td>
+            <td>Ásia</td>
+        </tr>
+        <tr>
+            <!--<td>Vulpes vulpes</td>-->
+            <td>Canídeo</td>
+            <td>Marrom</td>
+            <td>Floresta / Campo</td>
+            <td>Américas / Europa / Ásia</td>
+        </tr>
+    </table>
+
 
     <!--RODAPÉ-->
     <footer class="rodape"">

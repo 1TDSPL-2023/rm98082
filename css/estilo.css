@@ -21,3 +21,28 @@
     font-size: 3rem;
 }
 
+
+table{
+    border-collapse: collapse ;
+    margin: 5% auto;
+}
+
+td,th{
+    border: 1px solid;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: lightpink;
+}
+tr:nth-child(odd){
+    background-color: aqua;
+}
+
+tr:hover{
+    background-color: lightgreen;
+}
+
+td[colspan], [rowspan]{
+    text-align: center;
+}
